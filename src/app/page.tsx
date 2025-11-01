@@ -29,9 +29,6 @@ export default function Home() {
 
       <div id="services">
         <section className="mb-16">
-          <h2 className="mb-6 text-center font-headline text-3xl font-bold md:text-4xl">
-            Cleaning Services
-          </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {cleaningServices.map((service) => (
               <ServiceCard key={service.id} service={service} />
@@ -40,9 +37,6 @@ export default function Home() {
         </section>
 
         <section>
-          <h2 className="mb-6 text-center font-headline text-3xl font-bold md:text-4xl">
-            Pest Control
-          </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {pestControlServices.map((service) => (
               <ServiceCard key={service.id} service={service} />
