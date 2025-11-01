@@ -15,8 +15,6 @@ export default function Home() {
     (service) => service.category === "Pest Control"
   );
 
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="relative mx-auto mb-12 max-w-3xl">
