@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A bright and clean modern living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1576697133123-675aa93f3e28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbGVhbiUyMGxpdmluZyUyMHJvb218ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean living room"
+    },
+    {
+      "id": "bathroom-cleaning",
+      "description": "A sparkling clean bathroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1609879937493-56540300d8cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGVhbiUyMGJhdGhyb29tfGVufDB8fHx8MTc2MTg4ODgzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean bathroom"
+    },
+    {
+      "id": "kitchen-cleaning",
+      "description": "A tidy and clean kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1610276173132-c47d148ab626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xlYW4lMjBraXRjaGVufGVufDB8fHx8MTc2MTk3OTIyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean kitchen"
+    },
+    {
+      "id": "full-home-cleaning",
+      "description": "Person mopping a large living room floor.",
+      "imageUrl": "https://images.unsplash.com/photo-1691057185806-ea8b5b9a4506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob21lJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxODgwNDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home cleaning"
+    },
+    {
+      "id": "sofa-carpet-cleaning",
+      "description": "A professional cleaning a sofa with a machine.",
+      "imageUrl": "https://images.unsplash.com/photo-1686178827149-6d55c72d81df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2ZhJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sofa cleaning"
+    },
+    {
+      "id": "floor-tile-cleaning",
+      "description": "Close-up of a machine cleaning tile floors.",
+      "imageUrl": "https://images.unsplash.com/photo-1580256081112-e49377338b7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmbG9vciUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5MTE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor cleaning"
+    },
+    {
+      "id": "balcony-window-cleaning",
+      "description": "A person cleaning a large glass window.",
+      "imageUrl": "https://images.unsplash.com/photo-1534350752840-1b1b71b4b4fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aW5kb3clMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTExODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "window cleaning"
+    },
+    {
+      "id": "mattress-cleaning",
+      "description": "Professional steam cleaning a mattress.",
+      "imageUrl": "https://images.unsplash.com/photo-1573014196346-87ac0314faf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYXR0cmVzcyUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5MTE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mattress cleaning"
+    },
+    {
+      "id": "general-pest-control",
+      "description": "A pest control professional spraying in a kitchen corner.",
+      "imageUrl": "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXN0JTIwY29udHJvbHxlbnwwfHx8fDE3NjE5OTExODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pest control"
+    },
+    {
+      "id": "bed-bugs-control",
+      "description": "Magnified view of a bed bug on fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1580101545693-91b1db543a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiZWQlMjBidWd8ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bed bug"
+    },
+    {
+      "id": "termite-control",
+      "description": "Wood damaged by termites.",
+      "imageUrl": "https://images.unsplash.com/photo-1721675947515-fd847f038416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZXJtaXRlJTIwZGFtYWdlfGVufDB8fHx8MTc2MTk5MTE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "termite damage"
+    },
+    {
+      "id": "mosquito-control",
+      "description": "Fogging for mosquitos in a backyard.",
+      "imageUrl": "https://images.unsplash.com/photo-1598728584019-80d7f8aabd62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW9zcXVpdG8lMjBmb2dnaW5nfGVufDB8fHx8MTc2MTk5MTE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mosquito fogging"
+    },
+    {
+      "id": "booking-confirmation",
+      "description": "A friendly cleaning person smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1650964336783-fd8c0c241b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmcmllbmRseSUyMGNsZWFuZXJ8ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "friendly cleaner"
+    }
+  ]
 }
