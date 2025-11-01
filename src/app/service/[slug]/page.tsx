@@ -71,7 +71,7 @@ export default function ServiceDetailPage({
                 </p>
               </div>
               <Button asChild size="lg" className="text-lg">
-                <Link href={`/book/address?service=${service.id}`}>Add to Cart</Link>
+                <Link href={`/service/${service.id}/sub-category`}>Add to Cart</Link>
               </Button>
             </div>
           </div>

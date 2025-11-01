@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "userProfile": {
+      "title": "User Profile",
+      "description": "Represents a user's public profile.",
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "photoURL": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the user's profile picture."
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        }
+      },
+      "required": [
+        "displayName",
+        "email"
+      ]
+    },
+    "subCategory": {
+      "title": "SubCategory",
+      "description": "Represents a sub-category of a service.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the subcategory."
+        },
+        "parentService": {
+          "type": "string",
+          "description": "The parent service ID."
+        },
+        "title": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "rating": {
+          "type": "number"
+        },
+        "price": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "parentService",
+        "title",
+        "image",
+        "rating",
+        "price"
+      ]
+    },
+    "cartItem": {
+      "title": "Cart Item",
+      "description": "Represents an item in the user's shopping cart.",
+      "type": "object",
+      "properties": {
+        "service_id": {
+          "type": "string"
+        },
+        "subcategory_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "quantity": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "service_id",
+        "subcategory_id",
+        "title",
+        "price",
+        "image",
+        "quantity"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "google.com",
+      "password"
+    ]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/userProfile"
+      },
+      "description": "Stores public information about a user."
+    },
+    "/subcategories": {
+      "schema": {
+        "$ref": "#/entities/subCategory"
+      },
+      "description": "Stores all available subcategories for services."
+    },
+    "/users/{userId}/cart/{cartItemId}": {
+      "schema": {
+        "$ref": "#/entities/cartItem"
+      },
+      "description": "Stores items in a user's shopping cart."
+    }
+  }
+}

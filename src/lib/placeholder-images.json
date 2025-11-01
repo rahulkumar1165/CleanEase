@@ -77,6 +77,60 @@
       "description": "A friendly cleaning person smiling.",
       "imageUrl": "https://images.unsplash.com/photo-1650964336783-fd8c0c241b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmcmllbmRseSUyMGNsZWFuZXJ8ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "friendly cleaner"
+    },
+    {
+      "id": "chimney-cleaning",
+      "description": "A person cleaning a kitchen chimney.",
+      "imageUrl": "https://images.unsplash.com/photo-1612798692278-c6f93f289b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGltbmV5JTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chimney cleaning"
+    },
+    {
+      "id": "chimney-deep-cleaning",
+      "description": "Deep cleaning a chimney.",
+      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZWVwJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "deep cleaning"
+    },
+    {
+      "id": "chimney-filter-mesh",
+      "description": "Cleaning chimney filter mesh.",
+      "imageUrl": "https://images.unsplash.com/photo-1551394834-c6e2702552ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaWx0ZXIlMjBtZXNofGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "filter mesh"
+    },
+    {
+      "id": "chimney-oil-collector",
+      "description": "Cleaning a chimney oil collector.",
+      "imageUrl": "https://images.unsplash.com/photo-1728066372793-cd6ea42686de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvaWwlMjBjb2xsZWN0b3J8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oil collector"
+    },
+    {
+      "id": "chimney-motor-cleaning",
+      "description": "Cleaning a chimney motor.",
+      "imageUrl": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RvciUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motor cleaning"
+    },
+    {
+      "id": "chimney-complete-service",
+      "description": "A complete chimney service.",
+      "imageUrl": "https://images.unsplash.com/photo-1605152276897-4f618f831968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wbGV0ZSUyMHNlcnZpY2V8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "complete service"
+    },
+    {
+      "id": "chimney-inspection",
+      "description": "Inspecting a chimney.",
+      "imageUrl": "https://images.unsplash.com/photo-1687889915042-d2dbc2c21a90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGltbmV5JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjE5OTQ4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chimney inspection"
+    },
+    {
+      "id": "chimney-duct-cleaning",
+      "description": "Cleaning chimney ducts.",
+      "imageUrl": "https://images.unsplash.com/photo-1740325952758-eff797651e2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkdWN0JTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "duct cleaning"
+    },
+    {
+      "id": "chimney-installation",
+      "description": "Installing a chimney.",
+      "imageUrl": "https://images.unsplash.com/photo-1689777971571-a481824638f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbW5leSUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjE5OTQ4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chimney installation"
     }
   ]
 }

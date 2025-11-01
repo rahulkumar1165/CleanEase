@@ -13,6 +13,17 @@ export type Service = {
   features: string[];
 };
 
+export type SubCategory = {
+  id: string;
+  parentService: string;
+  title: string;
+  image: string;
+  image_hint: string;
+  rating: number;
+  price: number;
+  description?: string;
+};
+
 export type Category = {
   id: 'cleaning' | 'pest-control';
   name: 'Cleaning' | 'Pest Control';
@@ -68,6 +79,22 @@ export const services: Service[] = [
       'Oil and grease stain removal',
       'Appliance exterior cleaning (fridge, microwave)',
       'Cabinet and countertop cleaning',
+    ],
+  },
+    {
+    id: 'chimney-cleaning',
+    category: 'Cleaning',
+    name: 'Chimney Cleaning',
+    description: 'Complete chimney cleaning services for a smoke-free kitchen.',
+    base_price: 299,
+    rating: 4.7,
+    reviews: 55000,
+    image_url: getImage('chimney-cleaning').imageUrl,
+    image_hint: getImage('chimney-cleaning').imageHint,
+    features: [
+      'Removal of grease and oil',
+      'Filter cleaning',
+      'Motor and duct inspection',
     ],
   },
   {
@@ -214,4 +241,80 @@ export const services: Service[] = [
       'Larvicidal treatment for stagnant water',
     ],
   },
+];
+
+
+export const subCategories: SubCategory[] = [
+    {
+        id: 'chimney-deep-cleaning',
+        parentService: 'chimney-cleaning',
+        title: 'Deep chimney cleaning',
+        image: getImage('chimney-deep-cleaning').imageUrl,
+        image_hint: getImage('chimney-deep-cleaning').imageHint,
+        rating: 4.8,
+        price: 899,
+    },
+    {
+        id: 'chimney-filter-mesh',
+        parentService: 'chimney-cleaning',
+        title: 'Filter & mesh cleaning',
+        image: getImage('chimney-filter-mesh').imageUrl,
+        image_hint: getImage('chimney-filter-mesh').imageHint,
+        rating: 4.6,
+        price: 499,
+    },
+    {
+        id: 'chimney-oil-collector',
+        parentService: 'chimney-cleaning',
+        title: 'Oil collector cleaning',
+        image: getImage('chimney-oil-collector').imageUrl,
+        image_hint: getImage('chimney-oil-collector').imageHint,
+        rating: 4.7,
+        price: 399,
+    },
+    {
+        id: 'chimney-motor-cleaning',
+        parentService: 'chimney-cleaning',
+        title: 'Motor cleaning & lubrication',
+        image: getImage('chimney-motor-cleaning').imageUrl,
+        image_hint: getImage('chimney-motor-cleaning').imageHint,
+        rating: 4.5,
+        price: 699,
+    },
+    {
+        id: 'chimney-complete-service',
+        parentService: 'chimney-cleaning',
+        title: 'Complete chimney service',
+        image: getImage('chimney-complete-service').imageUrl,
+        image_hint: getImage('chimney-complete-service').imageHint,
+        rating: 4.9,
+        price: 1199,
+    },
+    {
+        id: 'chimney-inspection',
+        parentService: 'chimney-cleaning',
+        title: 'Chimney inspection (basic check)',
+        image: getImage('chimney-inspection').imageUrl,
+        image_hint: getImage('chimney-inspection').imageHint,
+        rating: 4.4,
+        price: 299,
+    },
+    {
+        id: 'chimney-duct-cleaning',
+        parentService: 'chimney-cleaning',
+        title: 'Duct cleaning',
+        image: getImage('chimney-duct-cleaning').imageUrl,
+        image_hint: getImage('chimney-duct-cleaning').imageHint,
+        rating: 4.7,
+        price: 649,
+    },
+    {
+        id: 'chimney-installation',
+        parentService: 'chimney-cleaning',
+        title: 'Installation & re-fitting',
+        image: getImage('chimney-installation').imageUrl,
+        image_hint: getImage('chimney-installation').imageHint,
+        rating: 4.6,
+        price: 899,
+    },
 ];
