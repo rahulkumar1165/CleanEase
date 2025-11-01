@@ -27,18 +27,6 @@ export default function Home() {
         />
       </div>
 
-      <section className="relative mb-12 h-[50vh] min-h-[400px] w-full overflow-hidden rounded-2xl bg-primary text-primary-foreground">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
-      </section>
-
       <div id="services">
         <section className="mb-16">
           <h2 className="mb-6 text-center font-headline text-3xl font-bold md:text-4xl">
