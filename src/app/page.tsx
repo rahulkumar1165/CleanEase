@@ -1,11 +1,6 @@
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
-import { services, categories } from "@/lib/data";
+import { services } from "@/lib/data";
 import { ServiceCard } from "@/components/service-card";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function Home() {
   const cleaningServices = services.filter(
@@ -18,10 +13,9 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="relative mx-auto mb-12 max-w-3xl">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
         <Input
           placeholder="Search for services like 'Sofa Cleaning' or 'Termite Control'..."
-          className="h-14 rounded-full bg-background/90 pl-12 text-lg backdrop-blur-sm"
+          className="h-14 rounded-full bg-background/90 px-6 text-lg backdrop-blur-sm"
         />
       </div>
 
