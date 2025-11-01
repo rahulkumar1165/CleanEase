@@ -15,6 +15,14 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <div className="relative mx-auto mb-12 max-w-3xl">
+        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
+        <Input
+          placeholder="Search for services like 'Sofa Cleaning' or 'Termite Control'..."
+          className="h-14 rounded-full bg-background/90 pl-12 text-lg backdrop-blur-sm"
+        />
+      </div>
+
       <section className="relative mb-12 h-[50vh] min-h-[400px] w-full overflow-hidden rounded-2xl bg-primary text-primary-foreground">
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/50 p-6 text-center">
           <h1 className="font-headline text-4xl font-bold md:text-6xl">
@@ -34,14 +42,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="relative mx-auto -mt-20 mb-12 max-w-3xl">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
-        <Input
-          placeholder="Search for services like 'Sofa Cleaning' or 'Termite Control'..."
-          className="h-14 rounded-full bg-background/90 pl-12 text-lg backdrop-blur-sm"
-        />
-      </div>
 
       <div id="services">
         <section className="mb-16">
