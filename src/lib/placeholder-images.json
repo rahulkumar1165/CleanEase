@@ -87,25 +87,25 @@
     {
       "id": "chimney-deep-cleaning",
       "description": "Deep cleaning a chimney.",
-      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZWVwJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZWVwJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "deep cleaning"
     },
     {
       "id": "chimney-filter-mesh",
       "description": "Cleaning chimney filter mesh.",
-      "imageUrl": "https://images.unsplash.com/photo-1551394834-c6e2702552ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaWx0ZXIlMjBtZXNofGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581364987988-6315558d3cbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmaWx0ZXIlMjBtZXNofGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "filter mesh"
     },
     {
       "id": "chimney-oil-collector",
       "description": "Cleaning a chimney oil collector.",
-      "imageUrl": "https://images.unsplash.com/photo-1728066372793-cd6ea42686de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvaWwlMjBjb2xsZWN0b3J8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1572167073706-003f87de2a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvaWwlMjBjb2xsZWN0b3J8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "oil collector"
     },
     {
       "id": "chimney-motor-cleaning",
       "description": "Cleaning a chimney motor.",
-      "imageUrl": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RvciUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604501997347-025aeb7d4479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RvciUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "motor cleaning"
     },
     {
@@ -117,20 +117,386 @@
     {
       "id": "chimney-inspection",
       "description": "Inspecting a chimney.",
-      "imageUrl": "https://images.unsplash.com/photo-1687889915042-d2dbc2c21a90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGltbmV5JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjE5OTQ4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1642707341171-f314aeddd31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGltbmV5JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjE5OTQ4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chimney inspection"
     },
     {
       "id": "chimney-duct-cleaning",
       "description": "Cleaning chimney ducts.",
-      "imageUrl": "https://images.unsplash.com/photo-1740325952758-eff797651e2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkdWN0JTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1619170890667-da0773d5d6a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkdWN0JTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "duct cleaning"
     },
     {
       "id": "chimney-installation",
       "description": "Installing a chimney.",
-      "imageUrl": "https://images.unsplash.com/photo-1689777971571-a481824638f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbW5leSUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NjE5OTQ4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646850369493-71799cbc1c80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGltbmV5JTIwaW5zdGFsbGF0aW9ufGVufDB8fHx8MTc2MTk5NDg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chimney installation"
+    },
+    {
+      "id": "full-bathroom-deep-cleaning",
+      "description": "Full bathroom deep cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1686178827149-6d55c72d81df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWVwJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk0ODczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "deep cleaning"
+    },
+    {
+      "id": "toilet-commode-cleaning",
+      "description": "Toilet and commode cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1664227430687-9299c593e3da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b2lsZXQlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toilet cleaning"
+    },
+    {
+      "id": "sink-tap-descaling",
+      "description": "Sink and tap descaling",
+      "imageUrl": "https://images.unsplash.com/photo-1651764730688-49c9fa7b8c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0YXAlMjBkZXNjYWxpbmd8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tap descaling"
+    },
+    {
+      "id": "wall-tile-scrubbing",
+      "description": "Wall and tile scrubbing",
+      "imageUrl": "https://picsum.photos/seed/walltile/600/400",
+      "imageHint": "tile scrubbing"
+    },
+    {
+      "id": "shower-fittings-cleaning",
+      "description": "Shower and fittings cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1622189417056-1cbe4582c671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzaG93ZXIlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shower cleaning"
+    },
+    {
+      "id": "bathroom-floor-disinfecting",
+      "description": "Bathroom floor disinfecting",
+      "imageUrl": "https://images.unsplash.com/photo-1612607058501-0a55feffd0bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmbG9vciUyMGRpc2luZmVjdGluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor disinfecting"
+    },
+    {
+      "id": "mirror-glass-cleaning",
+      "description": "Mirror and glass cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1722942115727-bea0c3c20cd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaXJyb3IlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mirror cleaning"
+    },
+    {
+      "id": "complete-kitchen-deep-cleaning",
+      "description": "Complete kitchen deep cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1754348857943-775cb1af03bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxraXRjaGVuJTIwZGVlcHxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen deep"
+    },
+    {
+      "id": "stove-burner-cleaning",
+      "description": "Stove and burner cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1743684456567-a3d32dbf702e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdG92ZSUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stove cleaning"
+    },
+    {
+      "id": "kitchen-sink-tap-cleaning",
+      "description": "Kitchen sink and tap cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1604762432718-b0cd3db01b18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaW5rJTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sink cleaning"
+    },
+    {
+      "id": "tiles-backsplash-degreasing",
+      "description": "Tiles and backsplash degreasing",
+      "imageUrl": "https://images.unsplash.com/photo-1535811348674-3bcc7efa9725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0aWxlJTIwZGVncmVhc2luZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tile degreasing"
+    },
+    {
+      "id": "exhaust-fan-cleaning",
+      "description": "Exhaust fan cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1609519479841-5fd3b2884e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYW4lMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fan cleaning"
+    },
+    {
+      "id": "cabinet-cleaning",
+      "description": "Cabinet cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1601879637276-c4394ffb00ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYWJpbmV0JTIwY2xlYW5pbmd8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cabinet cleaning"
+    },
+    {
+      "id": "refrigerator-microwave-exterior",
+      "description": "Refrigerator and microwave exterior cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1684055733705-23d5f0661696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcHBsaWFuY2UlMjBleHRlcmlvcnxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "appliance exterior"
+    },
+    {
+      "id": "1bhk-full-home-cleaning",
+      "description": "1BHK full home cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYxOTIwNjczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home interior"
+    },
+    {
+      "id": "2bhk-full-home-cleaning",
+      "description": "2BHK full home cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room"
+    },
+    {
+      "id": "3bhk-full-home-cleaning",
+      "description": "3BHK full home cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1761658652336-95d31ce1d806?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjaW91cyUyMGhvbWV8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spacious home"
+    },
+    {
+      "id": "villa-duplex-deep-cleaning",
+      "description": "Villa or duplex deep cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1556630279-0ecfac70eaf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsdXh1cnklMjB2aWxsYXxlbnwwfHx8fDE3NjE5NjM1Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury villa"
+    },
+    {
+      "id": "move-in-out-cleaning",
+      "description": "Move-in or move-out cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1630699376059-b781970715b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlbXB0eSUyMHJvb218ZW58MHx8fHwxNzYxOTI5ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "empty room"
+    },
+    {
+      "id": "home-sanitization",
+      "description": "Home sanitization",
+      "imageUrl": "https://images.unsplash.com/photo-1599656333066-fc11a239eb52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW5pdGl6aW5nJTIwc3ByYXl8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sanitizing spray"
+    },
+    {
+      "id": "balcony-window-addon",
+      "description": "Balcony and window cleaning add-on",
+      "imageUrl": "https://images.unsplash.com/photo-1553908167-60ad1b0f629b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMHdpbmRvd3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean window"
+    },
+    {
+      "id": "sofa-dry-vacuum-cleaning",
+      "description": "Sofa dry vacuum cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1758523670634-df4e12ed7a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2YWN1dW1pbmclMjBzb2ZhfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vacuuming sofa"
+    },
+    {
+      "id": "sofa-shampoo-deep-cleaning",
+      "description": "Sofa shampoo and deep cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1665655276959-e2895780994d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaGFtcG9vaW5nJTIwc29mYXxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shampooing sofa"
+    },
+    {
+      "id": "carpet-dry-cleaning",
+      "description": "Carpet dry cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1696546761269-a8f9d2b80512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkcnklMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dry cleaning"
+    },
+    {
+      "id": "carpet-deep-shampoo-cleaning",
+      "description": "Carpet deep shampoo cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1675596520625-0a72304372bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJwZXQlMjBzaGFtcG9vfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "carpet shampoo"
+    },
+    {
+      "id": "dining-chair-cleaning",
+      "description": "Dining chair cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMGNoYWlyfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean chair"
+    },
+    {
+      "id": "cushion-upholstery-cleaning",
+      "description": "Cushion and upholstery cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1654511830326-63a577771a7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx1cGhvbHN0ZXJ5JTIwY2xlYW58ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "upholstery clean"
+    },
+    {
+      "id": "floor-scrubbing-polishing",
+      "description": "Floor scrubbing and polishing",
+      "imageUrl": "https://images.unsplash.com/photo-1667923869411-f998f790ce98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zmxvb3IlMjBwb2xpc2hpbmd8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor polishing"
+    },
+    {
+      "id": "tile-stain-removal",
+      "description": "Tile stain removal",
+      "imageUrl": "https://images.unsplash.com/photo-1712578706208-7d46bfbe30f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGVhbiUyMHRpbGVzfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean tiles"
+    },
+    {
+      "id": "grout-line-deep-cleaning",
+      "description": "Grout line deep cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1701651545983-c3b357a8387f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxncm91dCUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grout cleaning"
+    },
+    {
+      "id": "marble-granite-polishing",
+      "description": "Marble and granite polishing",
+      "imageUrl": "https://images.unsplash.com/photo-1630756377422-7cfae60dd550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYXJibGUlMjBwb2xpc2h8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marble polish"
+    },
+    {
+      "id": "floor-sanitization",
+      "description": "Floor sanitization",
+      "imageUrl": "https://images.unsplash.com/photo-1651061111546-1c4216939dbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbG9vciUyMHNhbml0aXplfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "floor sanitize"
+    },
+    {
+      "id": "balcony-full-cleaning",
+      "description": "Balcony full cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1587663298189-6e05e9017fd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMGJhbGNvbnl8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean balcony"
+    },
+    {
+      "id": "window-glass-cleaning",
+      "description": "Window glass cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1719005764706-9805b8f8eb81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnbGFzcyUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NjQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glass cleaning"
+    },
+    {
+      "id": "window-grill-cleaning",
+      "description": "Window grill cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1642851401368-3c570d32251d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmlsbCUyMGNsZWFuaW5nfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grill cleaning"
+    },
+    {
+      "id": "sliding-door-frame-cleaning",
+      "description": "Sliding door and frame cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1567994493362-b185efc3a629?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb29yJTIwZnJhbWV8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "door frame"
+    },
+    {
+      "id": "balcony-railing-tiles-wash",
+      "description": "Balcony railing and tiles wash",
+      "imageUrl": "https://images.unsplash.com/photo-1627530504748-7a29bbb66074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmFpbGluZyUyMHdhc2h8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "railing wash"
+    },
+    {
+      "id": "single-mattress-cleaning",
+      "description": "Single mattress cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1759176170879-6bd7073ab4f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXR0cmVzcyUyMGNsZWFufGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mattress clean"
+    },
+    {
+      "id": "double-mattress-cleaning",
+      "description": "Double mattress cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1573014196346-87ac0314faf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMG1hdHRyZXNzfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean mattress"
+    },
+    {
+      "id": "king-size-mattress-cleaning",
+      "description": "King size mattress cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1759176171441-7afca44a5558?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxraW5nJTIwbWF0dHJlc3N8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "king mattress"
+    },
+    {
+      "id": "vacuum-shampoo-cleaning",
+      "description": "Vacuum and shampoo cleaning",
+      "imageUrl": "https://images.unsplash.com/photo-1629293645411-ad12381f569a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaGFtcG9vJTIwdmFjdXVtfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shampoo vacuum"
+    },
+    {
+      "id": "mattress-sanitization",
+      "description": "Mattress sanitization",
+      "imageUrl": "https://images.unsplash.com/photo-1722356541555-eeabc38f80a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzYW5pdGl6ZSUyMG1hdHRyZXNzfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sanitize mattress"
+    },
+    {
+      "id": "1bhk-pest-control",
+      "description": "1BHK pest control",
+      "imageUrl": "https://images.unsplash.com/photo-1650895421894-07954c2134b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXN0JTIwY29udHJvbHxlbnwwfHx8fDE3NjE5OTExODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pest control"
+    },
+    {
+      "id": "2bhk-pest-control",
+      "description": "2BHK pest control",
+      "imageUrl": "https://picsum.photos/seed/2bhkpest/600/400",
+      "imageHint": "pest service"
+    },
+    {
+      "id": "3bhk-pest-control",
+      "description": "3BHK pest control",
+      "imageUrl": "https://images.unsplash.com/photo-1571710755631-8cd9f5f62e1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVzdCUyMHByZXZlbnRpb258ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pest prevention"
+    },
+    {
+      "id": "kitchen-bathroom-targeted-treatment",
+      "description": "Kitchen and bathroom targeted pest treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1622062105793-a2ac0aad1076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0YXJnZXRlZCUyMHBlc3R8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "targeted pest"
+    },
+    {
+      "id": "full-home-pest-control-general",
+      "description": "Full home general pest control",
+      "imageUrl": "https://images.unsplash.com/photo-1719927580138-2e6a9b805572?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwcGVzdHxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home pest"
+    },
+    {
+      "id": "bedroom-bed-bug-treatment",
+      "description": "Bedroom bed bug treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1669047057325-18b868cf50cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZWRidWclMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bedbug treatment"
+    },
+    {
+      "id": "full-home-bed-bug-control",
+      "description": "Full home bed bug control",
+      "imageUrl": "https://images.unsplash.com/photo-1669047057325-18b868cf50cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWRidWclMjBjb250cm9sfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bedbug control"
+    },
+    {
+      "id": "mattress-heat-spray-treatment",
+      "description": "Mattress heat and spray treatment for bed bugs",
+      "imageUrl": "https://images.unsplash.com/photo-1556228720-950d08a2a516?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZWF0JTIwdHJlYXRtZW50fGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heat treatment"
+    },
+    {
+      "id": "bed-bugs-follow-up-session",
+      "description": "Bed bugs follow-up session",
+      "imageUrl": "https://images.unsplash.com/photo-1678652235817-716b38ece8f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXN0JTIwZm9sbG93LXVwfGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pest follow-up"
+    },
+    {
+      "id": "pre-construction-anti-termite",
+      "description": "Pre-construction anti-termite treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1755240774830-61b5cce40983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnRpLXRlcm1pdGV8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anti-termite"
+    },
+    {
+      "id": "post-construction-termite-control",
+      "description": "Post-construction termite control",
+      "imageUrl": "https://images.unsplash.com/photo-1708486032669-6efc7fede55b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZXJtaXRlJTIwY29udHJvbHxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "termite control"
+    },
+    {
+      "id": "furniture-termite-spray",
+      "description": "Furniture termite spray",
+      "imageUrl": "https://images.unsplash.com/photo-1697954264930-2faa26500b7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZXJtaXRlJTIwc3ByYXl8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "termite spray"
+    },
+    {
+      "id": "wooden-door-wardrobe-treatment",
+      "description": "Wooden door and wardrobe termite treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1675050861806-d5a2b7ce3898?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b29kJTIwdHJlYXRtZW50fGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood treatment"
+    },
+    {
+      "id": "full-home-termite-protection",
+      "description": "Full home termite protection",
+      "imageUrl": "https://images.unsplash.com/photo-1712053638650-10dca88470b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZXJtaXRlJTIwcHJvdGVjdGlvbnxlbnwwfHx8fDE3NjE5OTY0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "termite protection"
+    },
+    {
+      "id": "indoor-mosquito-spray-treatment",
+      "description": "Indoor mosquito spray treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1699528136768-176df08123d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb3NxdWl0byUyMHNwcmF5fGVufDB8fHx8MTc2MTk5NjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mosquito spray"
+    },
+    {
+      "id": "outdoor-fogging-service",
+      "description": "Outdoor mosquito fogging service",
+      "imageUrl": "https://images.unsplash.com/photo-1647616944262-b71f85231993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3NxdWl0byUyMGZvZ2dpbmd8ZW58MHx8fHwxNzYxOTkxMTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mosquito fogging"
+    },
+    {
+      "id": "full-home-mosquito-control",
+      "description": "Full home mosquito control",
+      "imageUrl": "https://images.unsplash.com/photo-1650895421894-07954c2134b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3NxdWl0byUyMGNvbnRyb2x8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mosquito control"
+    },
+    {
+      "id": "herbal-mosquito-treatment",
+      "description": "Herbal mosquito treatment",
+      "imageUrl": "https://images.unsplash.com/photo-1650504688855-70c19c39caf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZXJiYWwlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "herbal treatment"
+    },
+    {
+      "id": "monthly-maintenance-plan",
+      "description": "Monthly mosquito maintenance plan",
+      "imageUrl": "https://images.unsplash.com/photo-1676027843810-d6180ab676f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWludGVuYW5jZSUyMHBsYW58ZW58MHx8fHwxNzYxOTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maintenance plan"
     }
   ]
 }
