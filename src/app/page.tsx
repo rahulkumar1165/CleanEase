@@ -4,6 +4,8 @@ import { services, categories } from "@/lib/data";
 import { ServiceCard } from "@/components/service-card";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function Home() {
   const cleaningServices = services.filter(
@@ -12,6 +14,8 @@ export default function Home() {
   const pestControlServices = services.filter(
     (service) => service.category === "Pest Control"
   );
+
+  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -24,23 +28,15 @@ export default function Home() {
       </div>
 
       <section className="relative mb-12 h-[50vh] min-h-[400px] w-full overflow-hidden rounded-2xl bg-primary text-primary-foreground">
-        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/50 p-6 text-center">
-          <h1 className="font-headline text-4xl font-bold md:text-6xl">
-            Your Home, Perfectly Clean.
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90">
-            Book professional cleaning and pest control services in minutes.
-            Reliable, on-time, and background-verified professionals.
-          </p>
-          <div className="mt-8 flex gap-4">
-            <Button asChild size="lg">
-              <Link href="#services">Browse Services</Link>
-            </Button>
-            <Button asChild variant="secondary" size="lg">
-              <Link href="/book/address">Book Now</Link>
-            </Button>
-          </div>
-        </div>
+        {heroImage && (
+          <Image
+            src={heroImage.imageUrl}
+            alt={heroImage.description}
+            fill
+            className="object-cover"
+            data-ai-hint={heroImage.imageHint}
+          />
+        )}
       </section>
 
       <div id="services">
