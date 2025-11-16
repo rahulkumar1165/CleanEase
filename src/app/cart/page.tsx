@@ -7,8 +7,8 @@ import { useToast } from '@/hooks/use-toast';
 import { ArrowLeft, Trash2, Plus, Minus } from 'lucide-react';
 import Image from 'next/image';
 
-import { useCollection, useUser, useFirebase } from '@/firebase';
-import { collection, doc, deleteDoc, runTransaction, writeBatch, Firestore } from 'firebase/firestore';
+import { useCollection, useUser, useFirestore } from '@/firebase';
+import { collection, doc, deleteDoc, runTransaction } from 'firebase/firestore';
 
 interface CartItem {
   id: string;
@@ -23,7 +23,7 @@ interface CartItem {
 const CartItemCard = ({ item }: { item: CartItem }) => {
   const { toast } = useToast();
   const { user } = useUser();
-  const { firestore } = useFirebase();
+  const firestore = useFirestore();
 
   const updateQuantity = async (newQuantity: number) => {
     if (!user || !firestore || newQuantity < 0) return;
@@ -76,7 +76,7 @@ export default function CartPage() {
   const router = useRouter();
   const { toast } = useToast();
   const { user } = useUser();
-  const { firestore } = useFirebase();
+  const firestore = useFirestore();
 
   const cartItemsQuery = user && firestore ? collection(firestore, `users/${user.uid}/cart`) : null;
   const { data: cartItems, loading, error } = useCollection(cartItemsQuery);
