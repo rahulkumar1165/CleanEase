@@ -1,9 +1,8 @@
 "use client"
 
 import * as React from "react"
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams, notFound } from 'next/navigation';
 import { services } from "@/lib/data";
-import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -58,13 +57,10 @@ const HourToggle = ({
     </button>
   );
 
-export default function ServiceOptionsPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const router = useRouter();
-  const service = services.find((s) => s.id === params.slug);
+export default function ServiceOptionsPage() {
+  const params = useParams();
+  const slug = params.slug as string;
+  const service = services.find((s) => s.id === slug);
   const [hours, setHours] = React.useState(2);
   const [professionals, setProfessionals] = React.useState(1);
   const [needsMaterials, setNeedsMaterials] = React.useState(false);

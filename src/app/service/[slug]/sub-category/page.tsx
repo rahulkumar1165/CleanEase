@@ -2,7 +2,7 @@
 'use client';
 
 import { services, subCategories, type SubCategory } from '@/lib/data';
-import { notFound, useRouter } from 'next/navigation';
+import { notFound, useRouter, useParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -113,15 +113,13 @@ const SubCategoryCard = ({
 };
 
 
-export default function SubCategoryPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default function SubCategoryPage() {
   const router = useRouter();
-  const service = services.find((s) => s.id === params.slug);
+  const params = useParams();
+  const slug = params.slug as string;
+  const service = services.find((s) => s.id === slug);
   const relevantSubCategories = subCategories.filter(
-    (sc) => sc.parentService === params.slug
+    (sc) => sc.parentService === slug
   );
 
   if (!service) {

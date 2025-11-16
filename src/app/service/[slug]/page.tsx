@@ -1,5 +1,7 @@
+"use client";
+
 import { services } from "@/lib/data";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,18 +10,10 @@ import Link from "next/link";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
-export async function generateStaticParams() {
-  return services.map((service) => ({
-    slug: service.id,
-  }));
-}
-
-export default function ServiceDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const service = services.find((s) => s.id === params.slug);
+export default function ServiceDetailPage() {
+  const params = useParams();
+  const slug = params.slug as string;
+  const service = services.find((s) => s.id === slug);
 
   if (!service) {
     notFound();
