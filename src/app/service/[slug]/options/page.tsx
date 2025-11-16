@@ -1,10 +1,11 @@
+
 "use client"
 
 import * as React from "react"
 import { useRouter, useParams, notFound } from 'next/navigation';
 import { services } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -147,12 +148,12 @@ export default function ServiceOptionsPage() {
                     ))}
                     </div>
                 </div>
-                <div className="flex justify-end pt-4">
-                    <Button size="lg" asChild>
-                        <Link href={`/service/${service.id}/sub-category`}>Continue</Link>
-                    </Button>
-                </div>
             </CardContent>
+            <CardFooter className="flex justify-end pt-4">
+                <Button size="lg" asChild>
+                    <Link href={`/book/address`}>Continue</Link>
+                </Button>
+            </CardFooter>
         </Card>
     </div>
   );
