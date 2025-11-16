@@ -37,45 +37,67 @@ const SubCategoryCard = ({
   const { user } = useUser();
 
   const handleAddToCart = async () => {
-    if (!user || !firestore) {
+    if (user && firestore) {
+      // User is logged in, use Firestore
+      const cartItemRef = doc(firestore, `users/${user.uid}/cart`, subCategory.id);
+      try {
+        const docSnap = await getDoc(cartItemRef);
+        if (docSnap.exists()) {
+          await setDoc(cartItemRef, { quantity: increment(1) }, { merge: true });
+        } else {
+          await setDoc(cartItemRef, {
+            service_id: serviceId,
+            subcategory_id: subCategory.id,
+            title: subCategory.title,
+            price: subCategory.price,
+            image: subCategory.image,
+            quantity: 1,
+          });
+        }
+      } catch (error) {
+        console.error("Error adding to Firestore cart: ", error);
         toast({
-            variant: "destructive",
-            title: "Uh oh! Something went wrong.",
-            description: "You must be logged in to add items to the cart.",
+          variant: "destructive",
+          title: "Uh oh! Something went wrong.",
+          description: "Could not add item to cart. Please try again.",
         });
         return;
-    }
+      }
+    } else {
+      // User is not logged in, use local storage
+      try {
+        const localCart = JSON.parse(localStorage.getItem('cart') || '[]');
+        const existingItemIndex = localCart.findIndex((item: any) => item.subcategory_id === subCategory.id);
 
-    const cartItemRef = doc(firestore, `users/${user.uid}/cart`, subCategory.id);
-
-    try {
-        const docSnap = await getDoc(cartItemRef);
-
-        if (docSnap.exists()) {
-            await setDoc(cartItemRef, { quantity: increment(1) }, { merge: true });
+        if (existingItemIndex > -1) {
+          localCart[existingItemIndex].quantity += 1;
         } else {
-            await setDoc(cartItemRef, {
-                service_id: serviceId,
-                subcategory_id: subCategory.id,
-                title: subCategory.title,
-                price: subCategory.price,
-                image: subCategory.image,
-                quantity: 1,
-            });
+          localCart.push({
+            id: subCategory.id, // for local removal
+            service_id: serviceId,
+            subcategory_id: subCategory.id,
+            title: subCategory.title,
+            price: subCategory.price,
+            image: subCategory.image,
+            quantity: 1,
+          });
         }
-
+        localStorage.setItem('cart', JSON.stringify(localCart));
+      } catch (error) {
+        console.error("Error adding to local cart: ", error);
         toast({
-            title: 'Added to Cart',
-            description: `${subCategory.title} has been added to your cart.`,
+          variant: "destructive",
+          title: "Uh oh! Something went wrong.",
+          description: "Could not add item to cart.",
         });
-    } catch (error) {
-        console.error("Error adding to cart: ", error);
-        toast({
-            variant: "destructive",
-            title: "Uh oh! Something went wrong.",
-            description: "Could not add item to cart. Please try again.",
-        });
+        return;
+      }
     }
+
+    toast({
+      title: 'Added to Cart',
+      description: `${subCategory.title} has been added to your cart.`,
+    });
   };
 
   return (

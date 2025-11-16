@@ -1,11 +1,13 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { ArrowLeft, Trash2, Plus, Minus } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { useCollection, useUser, useFirestore } from '@/firebase';
 import { collection, doc, deleteDoc, runTransaction } from 'firebase/firestore';
@@ -20,32 +22,7 @@ interface CartItem {
   quantity: number;
 }
 
-const CartItemCard = ({ item }: { item: CartItem }) => {
-  const { toast } = useToast();
-  const { user } = useUser();
-  const firestore = useFirestore();
-
-  const updateQuantity = async (newQuantity: number) => {
-    if (!user || !firestore || newQuantity < 0) return;
-    const itemRef = doc(firestore, `users/${user.uid}/cart`, item.id);
-    
-    try {
-      if (newQuantity === 0) {
-        await deleteDoc(itemRef);
-        toast({ title: "Item removed from cart." });
-      } else {
-        await runTransaction(firestore, async (transaction) => {
-          transaction.update(itemRef, { quantity: newQuantity });
-        });
-      }
-    } catch (e) {
-      console.error("Failed to update quantity: ", e);
-      toast({ variant: "destructive", title: "Could not update item quantity." });
-    }
-  };
-
-  const removeItem = () => updateQuantity(0);
-
+const CartItemCard = ({ item, onUpdate, onRemove }: { item: CartItem, onUpdate: (id: string, quantity: number) => void, onRemove: (id: string) => void }) => {
   return (
     <Card className="flex items-center p-4 gap-4">
       <div className="relative h-20 w-20 rounded-md overflow-hidden">
@@ -56,14 +33,14 @@ const CartItemCard = ({ item }: { item: CartItem }) => {
         <p className="text-primary font-bold">₹{item.price.toFixed(2)}</p>
       </div>
       <div className="flex items-center gap-2">
-        <Button variant="outline" size="icon" onClick={() => updateQuantity(item.quantity - 1)}>
+        <Button variant="outline" size="icon" onClick={() => onUpdate(item.id, item.quantity - 1)}>
           <Minus className="h-4 w-4" />
         </Button>
         <span className="font-bold w-6 text-center">{item.quantity}</span>
-        <Button variant="outline" size="icon" onClick={() => updateQuantity(item.quantity + 1)}>
+        <Button variant="outline" size="icon" onClick={() => onUpdate(item.id, item.quantity + 1)}>
           <Plus className="h-4 w-4" />
         </Button>
-        <Button variant="ghost" size="icon" onClick={removeItem} className="text-destructive">
+        <Button variant="ghost" size="icon" onClick={() => onRemove(item.id)} className="text-destructive">
           <Trash2 className="h-4 w-4" />
         </Button>
       </div>
@@ -75,21 +52,77 @@ const CartItemCard = ({ item }: { item: CartItem }) => {
 export default function CartPage() {
   const router = useRouter();
   const { toast } = useToast();
-  const { user } = useUser();
+  const { user, loading: userLoading } = useUser();
   const firestore = useFirestore();
+  
+  const [localCart, setLocalCart] = useState<CartItem[]>([]);
 
+  // Firestore cart for logged-in user
   const cartItemsQuery = user && firestore ? collection(firestore, `users/${user.uid}/cart`) : null;
-  const { data: cartItems, loading, error } = useCollection(cartItemsQuery);
+  const { data: firestoreCart, loading: firestoreLoading, error: firestoreError } = useCollection(cartItemsQuery);
 
+  useEffect(() => {
+    if (!user && !userLoading) {
+      // User is not logged in, load from local storage
+      const storedCart = JSON.parse(localStorage.getItem('cart') || '[]') as CartItem[];
+      setLocalCart(storedCart);
+    }
+  }, [user, userLoading]);
+
+  const cartItems = user ? firestoreCart : localCart;
+  const loading = user ? firestoreLoading : false;
+  const error = user ? firestoreError : null;
+
+  const updateQuantity = async (itemId: string, newQuantity: number) => {
+    if (newQuantity < 0) return;
+
+    if (user && firestore) {
+      // Logged-in user: update Firestore
+      const itemRef = doc(firestore, `users/${user.uid}/cart`, itemId);
+      try {
+        if (newQuantity === 0) {
+          await deleteDoc(itemRef);
+          toast({ title: "Item removed from cart." });
+        } else {
+          await runTransaction(firestore, async (transaction) => {
+            transaction.update(itemRef, { quantity: newQuantity });
+          });
+        }
+      } catch (e) {
+        console.error("Failed to update quantity: ", e);
+        toast({ variant: "destructive", title: "Could not update item quantity." });
+      }
+    } else {
+      // Anonymous user: update local storage
+      const updatedCart = newQuantity === 0 
+        ? localCart.filter(item => item.id !== itemId)
+        : localCart.map(item => item.id === itemId ? { ...item, quantity: newQuantity } : item);
+      
+      setLocalCart(updatedCart);
+      localStorage.setItem('cart', JSON.stringify(updatedCart));
+      if (newQuantity === 0) {
+        toast({ title: "Item removed from cart." });
+      }
+    }
+  };
+
+  const removeItem = (itemId: string) => {
+    updateQuantity(itemId, 0);
+  };
+  
   const total = cartItems?.reduce((acc, item) => acc + item.price * item.quantity, 0) || 0;
 
   const handleCheckout = () => {
-    router.push('/book/address');
+    if (user) {
+      router.push('/book/address');
+    } else {
+      router.push('/login?redirect=/book/address');
+    }
   };
 
-  if (loading) {
+  if (userLoading || loading) {
     return (
-        <div className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center h-[calc(100vh-8rem)]">
             <p>Loading Cart...</p>
         </div>
     )
@@ -97,7 +130,7 @@ export default function CartPage() {
 
   if (error) {
     return (
-        <div className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center h-[calc(100vh-8rem)]">
             <p>Error: {error.message}</p>
         </div>
     )
@@ -119,7 +152,12 @@ export default function CartPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-2 space-y-4">
               {cartItems.map((item) => (
-                <CartItemCard key={item.id} item={item as CartItem} />
+                <CartItemCard 
+                  key={item.id} 
+                  item={item as CartItem} 
+                  onUpdate={updateQuantity}
+                  onRemove={removeItem}
+                />
               ))}
             </div>
 
