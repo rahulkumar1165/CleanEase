@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Star } from "lucide-react";
 import Link from "next/link";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 
 export async function generateStaticParams() {
   return services.map((service) => ({
@@ -54,10 +56,10 @@ export default function ServiceDetailPage({
               <h3 className="mb-4 text-lg font-semibold">What's included</h3>
               <ul className="space-y-3">
                 {service.features.map((feature, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
-                    <span>{feature}</span>
-                  </li>
+                    <li key={index} className="flex items-start gap-3">
+                        <Checkbox id={`feature-${index}`} defaultChecked className="mt-1" />
+                        <Label htmlFor={`feature-${index}`} className="leading-snug">{feature}</Label>
+                    </li>
                 ))}
               </ul>
             </CardContent>
@@ -71,7 +73,7 @@ export default function ServiceDetailPage({
                 </p>
               </div>
               <Button asChild size="lg" className="text-lg">
-                <Link href={`/service/${service.id}/sub-category`}>Add to Cart</Link>
+                <Link href={`/service/${service.id}/options`}>Book Service</Link>
               </Button>
             </div>
           </div>
